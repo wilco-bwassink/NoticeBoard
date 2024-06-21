@@ -38,6 +38,10 @@ header>img {
 main {
     width: 80vw;
     border-left: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 sidebar {
     width: 18vw;
@@ -69,4 +73,10 @@ sidebar {
         }
         }
 }
+}
+
+.mainBackground {
+    width: 50vw;
+    align-self: center;
+    justify-content: center;
 }
